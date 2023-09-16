@@ -59,7 +59,47 @@ run_placement
 ```
 
 ![image](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/63f6e5e4-0bd8-407b-9c10-25fabf38b0a3)
+</details>
 
 
+<details>
+<summary>DAY 3 :Design Library Cell</summary>
+<br>
 
+#### Inverter Layout using Magic
+```
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign$ magic -T sky13A.tech sky130_inv.mag 
+```
+![day3_1](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/3ca5df5d-a2f2-4467-8722-c8c353057d57)
+![day3_2](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/152829db-9b45-429d-9a79-f099779be2ea)
+
+#### DRC Check
+![Screenshot from 2023-09-16 21-37-22](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/bfc82e43-3ca1-4178-a2e5-9d4ad476194e)
+
+#### Extracting PEX to SPICE with MAGIC
+![Screenshot from 2023-09-16 21-39-52](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/c23cffc4-e40b-4185-b20d-1309b23cf6c8)
+![Screenshot from 2023-09-16 21-41-28](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/0b800af2-fe8e-45ca-a67b-332003af9512)
+
+#### Grid Size
+![Screenshot from 2023-09-16 21-44-24](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/f28d6bae-7ad2-47e1-a978-79925720649b)
+
+![Screenshot from 2023-09-16 21-44-38](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/2d8f1392-be1d-46a2-91e2-31beb2aed309)
+
+#### Modified Spice netlist
+![Screenshot from 2023-09-16 21-46-37](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/0026879d-8380-456d-a515-8e14fc45535d)
+![Screenshot from 2023-09-16 21-47-25](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/f8724ea2-5567-4b6b-bdff-0f311fd3b379)
+![Screenshot from 2023-09-16 21-47-51](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/f92fd164-047f-4f4a-9e6f-d43d123d5cd7)
+
+
+```
+The results obtained from the graph are :
+
+    Rise Transition : 0.0395ns
+    Fall transition : 0.0282ns
+    Cell Rise delay : 0.03598ns
+    Cell fall delay : 0.0483ns
+```
+
+</details>
 
