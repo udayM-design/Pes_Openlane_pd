@@ -179,7 +179,8 @@ run_synthesis
 ![Screenshot from 2023-09-17 21-34-22](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/9cc6613c-f533-4371-94d7-c0bfd146acd6)
 
 #### Optimize the fanout value with OpenLANE tool
-![Screenshot from 2023-09-17 21-35-43](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/35999aeb-9822-4ebd-b8c2-ccc163a8b5e6)
+
+![layout](https://github.com/udayM-design/Pes_Openlane_pd/assets/93391726/4a8c67a1-2a2e-4563-93e0-249196404ad0)
 
 #### Post CTS- STA Analysis
 ```
